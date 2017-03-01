@@ -1,3 +1,3 @@
-define(['jquery'], function ($) {
-    console.log('profile模块加载')
+define(['jquery','common','nprogress'], function ($,undefined,nprogress) {
+    nprogress.done();
 })
